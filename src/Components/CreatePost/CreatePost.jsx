@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 
+// Child 1 = Form Page: Gets values and saves in the parent component (post).
+
 const AddPostForm = (props) => {
 
     const [userName, setUserName] = useState('');
     const [post, setPost] = useState('');
+ 
     
     function handleSubmit(event) {
         event.preventDefault();
         let newPost =[{
-            name: (userName),
+            userName: (userName),
             post: (post)
         }];
         console.log(newPost);
