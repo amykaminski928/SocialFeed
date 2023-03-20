@@ -1,0 +1,27 @@
+/* Post.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border-width: 1em;
+    border-color: gold;
+  }
+  
+  .display-container {
+   
+    border-width: 1em;
+    margin-top: 20px; 
+    border-color: gold;
+  }
+  
+  .border {
+    border: '1em';
+    color: '#FFFF00';
+  }
+
+  .post-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

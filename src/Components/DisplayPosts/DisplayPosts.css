@@ -1,0 +1,63 @@
+/* DisplayPost.css */
+.display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .post-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+  }
+  
+  .post-content {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .like-button,
+  .dislike-button {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .like-button:hover,
+  .dislike-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .liked {
+    background-color: #f1c40f;
+    color: #fff;
+  }
+  
+  .disliked {
+    background-color: #031b4a;
+    color: #fff;
+  }
+  

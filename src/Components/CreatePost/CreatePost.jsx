@@ -14,7 +14,9 @@ const CreatePost = (props) => {
             userName: (userName),
             post: (post)
         };
-        props.setPost.newPost;
+        props.onAddPost(newPost);
+        setUserName('');
+        setPost('');
         
     }
 
