@@ -1,10 +1,16 @@
 
 
 
-const DiplayPosts = (props) => {
+const DiplayPosts = ({posts}) => {
     return ( 
-        console.log('hello world')
+        <div>
+            <ul>
+                {posts.map((post, index) => (
+                    <li key={index}>{post}</li>
+                ))}
+            </ul>
+        </div>
      );
 }
  
-export default DiplayPosts;props
+export default DiplayPosts;
